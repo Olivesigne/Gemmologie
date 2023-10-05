@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Accueil</title>
+    </head>
+    <style>
+
+        body
+        {
+            width: 1240px;
+            height: 850px;
+            margin: 0;
+            padding : 0;
+            text-align: none;
+            background-image: url('ciel_étoilé.png');
+            overflow: none;
+        }
+
+        h1
+        {
+            font-size: 52px;
+            text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;
+            font-family: minecraftia;
+            color: #090;
+            padding: 16px;
+            font-weight: lighter;
+            text-align:center;
+            display:block;
+            margin:16px;
+            background-image:url(images/background-h1-wood.jpg);
+        }
+
+        .imagecentre
+        {
+            margin: 35px;
+            position: absolute;
+            top: 100px;
+            z-index: 1;
+        }
+
+        .buttoncentre
+        {
+            margin: 100px;
+            position: absolute;
+            top: 625px;
+            left: 775px;
+            z-index: 2;
+        }
+
+        .text
+        {
+            z-index: 2;
+            position: absolute;
+            color: blue;
+            top: 350px;
+            margin: 55px;
+        }
+
+        @font-face
+        {
+            font-weight: bold;
+            font-family: minecraftia;
+            src: url('Minecraftia-Regular.ttf');
+        }
+
+        @font-face
+        {
+            font-family: algerian;
+            src: url('ALGER.TTF');
+        }
+
+        .arrondi
+        {
+            width: 320px;
+            height: 85px;
+            border-radius: 50px 50px 200px 50px;
+            border: 1px solid black;
+
+            background: -moz-linear-gradient(top, #40FFFF, #C0FFFF);
+            background: -ms-linear-gradient(top, #40FFFF, #C0FFFF);
+            background: -o-linear-gradient(top, #40FFFF, #C0FFFF);
+            background: -webkit-gradient(linear, 0% 0%, 0% 100%,
+                from(#40FFFF), to(#C0FFFF));
+
+            box-shadow: 15px 15px 15px grey;
+
+            font-family: algerian;
+            font-size: 20px;
+        }
+
+        .arrondi:hover
+        {
+        background: -moz-linear-gradient(top, #C0FFFF, #40FFFF);
+        background: -ms-linear-gradient(top, #C0FFFF, #40FFFF);
+        background: -o-linear-gradient(top, #C0FFFF, #40FFFF);
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%,
+            from(#C0FFFF), to(#40FFFF));
+        }
+
+        .arrondi:active
+        {
+            background: white;
+        }
+
+        p
+        {
+            margin: 20px;
+        }
+
+        .ombre
+        {
+            width: 1200px;
+            box-shadow: 10px 10px 5px blue;
+        }
+
+        ul#horizontal
+        {
+            list-style: none;
+            font-size: 30px;
+        }
+
+        ul#horizontal li
+        {
+            display: inline;
+            padding-right: 1em;
+            padding-left: 1em;
+        }
+
+        ul#horizontal li a
+        {
+            text-decoration: none;
+            font-family: algerian;
+        }
+
+        ul#horizontal li:hover
+        {
+            border-radius: 0 20px 20px 20px;
+            background-color: #40FFFF;
+        }
+    </style>
+    <body>
+    <form id="validation">
+        <div id="buttontelechager">
+            <input type="button" name="telecharger_accueil" value="Télécharger le launcher" class="arrondi , buttoncentre">
+        </div>
+    </form>
+    <div id="imagetelechargergemmologie" class="ombre">
+        <img class="imagecentre" src="image%20serveur%20minecraft%20gemmologie%20site.jpg" title="Gemmologie, serveur minecraft survie pvp faction moddé lunaire" alt="">
+    </div>
+    <div id="menuaccueil">
+        <ul id="horizontal" style="z-index: 2;">
+            <li><a href="regles.html">R&egrave;gles</a></li>
+            <li><a href="infos.html">Infos</a></li>
+            <li><a href="wiki.html">Wiki</a></li>
+            <li><a href="telecharger.html">T&eacute;l&eacute;charger</a></li>
+            <li><a href="horaires.html">Horaires d'ouverture</a></li>
+        </ul>
+    </div>
+    <div id="textesurimage">
+        <h1 class="text" title="Gemmologie, serveur minecraft survie pvp faction moddé lunaire">Gemmologie, serveur minecraft <br> survie/pvp/faction/moddé/lunaire</h1>
+    </div>
+    </body>
+</html>

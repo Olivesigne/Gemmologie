@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Wiki</title>
+        <style>
+            body
+                {
+                    width: 1240px;
+                    height: 850px;
+                    margin: 0;
+                    padding : 0;
+                    text-align: none;
+                    background-image: url('ciel_étoilé.png');
+                    overflow: none;
+                }
+
+                @font-face
+                {
+                    font-weight: bold;
+                    font-family: minecraftia;
+                    src: url('Minecraftia-Regular.ttf');
+                }
+
+                @font-face
+                {
+                    font-family: algerian;
+                    src: url('ALGER.TTF');
+                }
+
+                .text
+                {
+                    z-index: 2;
+                    position: absolute;
+                    color: blue;
+                    top: 20px;
+                    margin: 55px;
+                    font-family: minecraftia;
+                    font-size: 20px;
+                }
+                ul#horizontal
+            {
+                list-style: none;
+                font-size: 30px;
+            }
+
+            ul#horizontal li
+            {
+                display: inline;
+                padding-right: 1em;
+                padding-left: 1em;
+            }
+
+            ul#horizontal li a
+            {
+                text-decoration: none;
+                font-family: algerian;
+            }
+
+            ul#horizontal li:hover
+            {
+                border-radius: 0 20px 20px 20px;
+                background-color: #40FFFF;
+            }
+
+            table
+            {
+                margin: 35px;
+                position: absolute;
+                top: 175px;
+                z-index: 1;
+                border: 4px double black;
+                border-spacing: 0;
+                text-align: center;
+                color: blue;
+                font-weight: bold;
+                font-size: 200%;
+                -moz-border-radius: 15px;
+                -webkit-border-radius: 15px;
+                -moz-box-shadow: gray 5px 5px 6px;
+                -webkit-box-shadow: gray 5px 5px 6px;
+            }
+
+            th
+            {
+                color: #fff;
+                font-size: 110%;
+                text-shadow: gray 2px 2px 2px;
+            }
+
+            tr:nth-child(odd)
+            {
+                background-color: blue;
+            }
+
+            tr:nth-child(even)
+            {
+                background-color: red;
+            }
+
+            td
+            {
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+    <div id="menuhoraires">
+        <ul id="horizontal" style="z-index: 2;">
+            <li><a href="regles.html">R&egrave;gles</a></li>
+            <li><a href="infos.html">Infos</a></li>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="telecharger.html">T&eacute;l&eacute;charger</a></li>
+            <li><a href="horaires.html">Horaires d'ouverture</a></li>
+        </ul>
+    </div>
+    <div id="menuwiki" style="font-family: minecraftia; font-size: 35px;">
+        <li><a href="wikiminerais.html">Minerais</a></li>
+    </div>
+    </body>
+</html>

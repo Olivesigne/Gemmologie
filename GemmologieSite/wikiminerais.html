@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="fr">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Wiki des minerais</title>
+        <style>
+            body
+                {
+                    width: 1240px;
+                    height: 1250px;
+                    margin: 0;
+                    padding : 0;
+                    text-align: none;
+                    background-image: url('ciel_étoilé.png');
+                    overflow: none;
+                }
+
+                @font-face
+                {
+                    font-weight: bold;
+                    font-family: minecraftia;
+                    src: url('Minecraftia-Regular.ttf');
+                }
+
+                @font-face
+                {
+                    font-family: algerian;
+                    src: url('ALGER.TTF');
+                }
+
+                .text
+                {
+                    z-index: 2;
+                    position: absolute;
+                    color: blue;
+                    top: 20px;
+                    margin: 55px;
+                    font-family: minecraftia;
+                    font-size: 20px;
+                }
+                ul#horizontal
+                {
+                    list-style: none;
+                    font-size: 30px;
+                }
+
+                ul#horizontal li
+                {
+                    display: inline;
+                    padding-right: 1em;
+                    padding-left: 1em;
+                }
+
+                ul#horizontal li a
+                {
+                    text-decoration: none;
+                    font-family: algerian;
+                }
+
+                ul#horizontal li:hover
+                {
+                    border-radius: 0 20px 20px 20px;
+                    background-color: #40FFFF;
+                }
+
+                table
+                {
+                    margin: 35px;
+                    position: absolute;
+                    top: 175px;
+                    z-index: 1;
+                    border: 4px double black;
+                    border-spacing: 0;
+                    text-align: center;
+                    color: blue;
+                    font-weight: bold;
+                    font-size: 200%;
+                    -moz-border-radius: 15px;
+                    -webkit-border-radius: 15px;
+                    -moz-box-shadow: gray 5px 5px 6px;
+                    -webkit-box-shadow: gray 5px 5px 6px;
+                }
+
+                th
+                {
+                    color: #fff;
+                    font-size: 110%;
+                    text-shadow: gray 2px 2px 2px;
+                }
+
+                tr:nth-child(odd)
+                {
+                    background-color: blue;
+                }
+
+                tr:nth-child(even)
+                {
+                    background-color: red;
+                }
+
+                td
+                {
+                    width: 200px;
+                }
+        </style>
+    </head>
+    <body>
+    <table>
+        <tr>
+            <th>Texture du minerai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>Infos et nom du minerai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>Couche de génération&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>Classement des minerais du mod</th>
+        </tr>
+        <tr>
+            <th><img src="garnet.png" alt="" title="Grenat"></th>
+            <th>Grenat <br> Le grenat est le minerai</th>
+            <th>50-0</th>
+            <th>15e</th>
+        </tr>
+        <tr>
+            <th><img src="lolite.png" alt="" title="Lolite"></th>
+            <th>Lolite <br> La lolite est le minerai</th>
+            <th>40-0</th>
+            <th>11e</th>
+        </tr>
+        <tr>
+            <th><img src="malachite.png" alt="" title="Malachite"></th>
+            <th>Malachite <br> La malachite est le minerai</th>
+            <th>25-0</th>
+            <th>6e</th>
+        </tr>
+        <tr>
+            <th><img src="pierre_de_lune.png" alt="" title="Pierre de lune"></th>
+            <th>Pierre de lune <br> La pierre de lune est le minerai</th>
+            <th>63-1</th>
+            <th>4e</th>
+        </tr>
+        <tr>
+            <th><img src="pyrite.png" alt="" title="Pyrite"></th>
+            <th>Pyrite <br> La pyrite est le minerai</th>
+            <th>30-0</th>
+            <th>8e</th>
+        </tr>
+        <tr>
+            <th><img src="rhodonite.png" alt="" title="Rhodonite"></th>
+            <th>Rhodonite <br> La rhodonite est le minerai</th>
+            <th>35-0</th>
+            <th>9e</th>
+        </tr>
+        <tr>
+            <th><img src="ruby.png" alt="" title="Rubis"></th>
+            <th>Rubis <br> Le rubis est le minerai</th>
+            <th>15-0</th>
+            <th>2e</th>
+        </tr>
+        <tr>
+            <th><img src="saphir.png" alt="" title="Saphir"></th>
+            <th>Saphir <br> Le saphir est le minerai</th>
+            <th>10-0</th>
+            <th>1er</th>
+        </tr>
+        <tr>
+            <th><img src="souffre.png" alt="" title="Soufre"></th>
+            <th>Soufre <br> Le soufre est le minerai</th>
+            <th>45-0</th>
+            <th>13e</th>
+        </tr>
+        <tr>
+            <th><img src="titane.png" alt="" title="Titane"></th>
+            <th>Titane <br> Le titane est le minerai</th>
+            <th>63-10</th>
+            <th>16e</th>
+        </tr>
+        <tr>
+            <th><img src="turquoise_gemmologie.png" alt="" title="Turquoise"></th>
+            <th>Turquoise <br> La turquoise est le minerai</th>
+            <th>20-0</th>
+            <th>5e</th>
+        </tr>
+    </table>
+    <div id="menuhoraires">
+        <ul id="horizontal" style="z-index: 2;">
+            <li><a href="regles.html">R&egrave;gles</a></li>
+            <li><a href="infos.html">Infos</a></li>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="telecharger.html">T&eacute;l&eacute;charger</a></li>
+            <li><a href="horaires.html">Horaires d'ouverture</a></li>
+            <li><a href="wiki.html">Wiki</a></li>
+        </ul>
+    </div>
+    </body>
+</html>
